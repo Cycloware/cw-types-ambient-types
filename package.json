@@ -1,0 +1,28 @@
+{
+   "name": "@cw-types/ambient-types",
+   "version": "1.0.0-a",
+   "author": "Kavan J. Shaban (Cycloware, LLC)",
+   "description": "Typings library for common ambient (global) types",
+   "homepage": "https://github.com/Cycloware/cw-types-ambient-types",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/Cycloware/cw-types-ambient-types.git"
+   },
+   "contributors": [
+      {
+         "name": "Kavan Shaban",
+         "url": "https://github.com/kavanshaban"
+      },
+      {
+         "name": "Cycloware",
+         "url": "https://github.com/cycloware"
+      }
+   ],
+   "main": "",
+   "scripts": {},
+   "keywords": [
+      "@types",
+      "ambient",
+      "typescript"
+   ]
+}
