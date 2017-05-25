@@ -1,6 +1,6 @@
 # Installation
  
-> First, run `npm install --save @cw-types/bluebird`
+> First, run `npm install --save @cw-types/ambient-types`
 
 
 >Then, you must add `node_modules/@cw-types` to your `tsconifg.json` file, like so:
