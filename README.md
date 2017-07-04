@@ -51,6 +51,9 @@ type Required<T> = {
 
 type TEmptyObject = {};
 
+
+type RecordOf<TObj, TValue> = {[P in keyof TObj]: TValue; };
+
 type TIndexerTo<T> = { [key: string]: T; };
 type TIndexerToAny = TIndexerTo<any>;
 type TIndexerToString = TIndexerTo<string>;
