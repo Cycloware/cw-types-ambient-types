@@ -29,6 +29,15 @@ type TEmptyObject = {};
 
 type RecordOf<TObj, TValue> = {[P in keyof TObj]: TValue; };
 
+/**
+ * Pick keys from string type in a strongly typed manner.
+ * 
+ * `KKeys` = `'a' | 'b' |' c' | 'd'`
+ * 
+ * `PickKeys<KKeys, 'b' | 'd'>` = `'b' | 'd'`
+ */
+type PickKeys<KKeys extends string, KPick extends KKeys> = KPick;
+
 type TIndexerTo<T> = { [key: string]: T; };
 type TIndexerToAny = TIndexerTo<any>;
 type TIndexerToString = TIndexerTo<string>;
