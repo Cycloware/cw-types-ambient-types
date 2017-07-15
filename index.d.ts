@@ -44,3 +44,5 @@ type TIndexerToString = TIndexerTo<string>;
 type TIndexerToBoolean = TIndexerTo<boolean>;
 type TIndexerToNumber = TIndexerTo<number>;
 type TIndexerToObject = TIndexerTo<object>;
+
+type TArrayIndexer<T> = { array: T[], indexer: { [key: string]: T; } };
